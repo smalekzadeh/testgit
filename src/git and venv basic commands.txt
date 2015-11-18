@@ -1,0 +1,13 @@
+To get a git project to your local machine and run virtualenv:
+
+1- in github copy the link to the project
+2- in your local machine go your project folder in terminal i.e. /GIT
+3- execute  git clone   < the github link to the project > this will create a sub folder in your projects folder
+4- go to the created sub folder which is the project you want to work on
+5- instal the virtual environment by executing  virtualenv venv
+6- activate the venv by    source  ./venv/bin/activate
+7- check the status of git repository(local) by git status
+8- add the files to git by   git add -A
+9- commit the local files to the local git  git commit -m 'comments here'
+10- push the commited files to the github repository by git push
+11 to get the latest files from the the github repository use git pull
